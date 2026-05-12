@@ -1,714 +1,1546 @@
 <mxfile host="app.diagrams.net" pages="5">
-
-  <!-- ═══════════════════════════════════════════════════════
-       Страница 1: Актёры (NODE TABLE: Actors)
-  ══════════════════════════════════════════════════════════ -->
-  <diagram name="actors" id="actors_page">
-    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram name="Actors" id="pg_actors">
+    <mxGraphModel dx="1577" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
+        <mxCell id="a1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-1" parent="a1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Леонардо ДиКаприо" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-2" parent="a1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 1" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-3" parent="a1" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1974-11-11" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-4" parent="a1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 9.2" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-5" parent="a1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = США" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="270" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-6" parent="a2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Мэрил Стрип" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-7" parent="a2" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 2" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-8" parent="a2" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1949-06-22" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-9" parent="a2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 9.5" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-10" parent="a2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = США" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="510" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-11" parent="a3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Том Хэнкс" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-12" parent="a3" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 3" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-13" parent="a3" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1956-07-09" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-14" parent="a3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 9.3" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-15" parent="a3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = США" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="750" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-16" parent="a4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Кейт Бланшетт" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-17" parent="a4" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 4" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-18" parent="a4" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1969-05-14" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-19" parent="a4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 9.1" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-20" parent="a4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = Австралия" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-21" parent="a5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Брэд Питт" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-22" parent="a5" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 5" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-23" parent="a5" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1963-12-18" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-24" parent="a5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 8.8" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-25" parent="a5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = США" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="270" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-26" parent="a6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Натали Портман" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-27" parent="a6" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 6" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-28" parent="a6" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1981-06-09" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-29" parent="a6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 8.7" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-30" parent="a6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = Израиль/США" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="510" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-31" parent="a7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Хоакин Феникс" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-32" parent="a7" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 7" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-33" parent="a7" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1974-10-28" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-34" parent="a7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 9.0" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-35" parent="a7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = США" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="750" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-36" parent="a8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Скарлетт Йоханссон" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-37" parent="a8" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 8" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-38" parent="a8" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1984-11-22" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-39" parent="a8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 8.5" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-40" parent="a8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = США" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="30" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-41" parent="a9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Кристиан Бейл" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-42" parent="a9" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 9" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-43" parent="a9" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1974-01-30" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-44" parent="a9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 8.9" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-45" parent="a9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = Великобритания" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="270" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-46" parent="a10" style="text;fontSize=11;align=left;spacingLeft=6;" value="Эмма Стоун" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-47" parent="a10" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 10" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-48" parent="a10" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1988-11-06" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-49" parent="a10" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 8.6" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-50" parent="a10" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = США" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="118" width="220" x="510" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-51" parent="a11" style="text;fontSize=11;align=left;spacingLeft=6;" value="Дензел Вашингтон" vertex="1">
+          <mxGeometry height="28" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-52" parent="a11" style="text;fontSize=11;align=left;spacingLeft=6;" value="ActorID = 11" vertex="1">
+          <mxGeometry height="22" width="220" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-53" parent="a11" style="text;fontSize=11;align=left;spacingLeft=6;" value="BirthDate = 1954-12-28" vertex="1">
+          <mxGeometry height="22" width="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-54" parent="a11" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating = 9.1" vertex="1">
+          <mxGeometry height="22" width="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-55" parent="a11" style="text;fontSize=11;align=left;spacingLeft=6;" value="Nationality = США" vertex="1">
+          <mxGeometry height="22" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="leg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="100" width="310" x="1030" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-56" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Легенда:" vertex="1">
+          <mxGeometry height="28" width="310" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-57" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="🔵: Actors" vertex="1">
+          <mxGeometry height="24" width="310" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-58" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Поля: ActorID · FullName · BirthDate" vertex="1">
+          <mxGeometry height="24" width="310" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="O-iodsuugfSy1HKnXxpM-59" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Rating (0–10) · Nationality | AS NODE" vertex="1">
+          <mxGeometry height="24" width="310" y="76" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Movies_Directors" id="pg_md">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- MOVIES header -->
+        <mxCell id="mhdr" parent="1" vertex="1" style="text;fontSize=15;fontStyle=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;">
+          <mxGeometry x="20" y="10" width="740" height="28" as="geometry" />
+        </mxCell>
+        <mxCell parent="mhdr" vertex="1" style="text;fontSize=15;fontStyle=1;align=center;" value="NODE TABLE: Movies">
+          <mxGeometry width="740" height="28" as="geometry" />
+        </mxCell>
+        <!-- Movies grid 3 cols -->
+        <!-- col1 -->
+        <mxCell id="m1" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="20" y="50" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Начало (2010)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 1">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 160 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Научная фантастика">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2010">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="20" y="175" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Форрест Гамп (1994)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 4">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 55 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Драма">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 1994">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="20" y="300" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Джокер (2019)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 7">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 55 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Триллер/Драма">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2019">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="m10" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="20" y="425" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Ла-Ла Ленд (2016)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 10">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 30 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Мюзикл/Романтика">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2016">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <!-- col2 -->
+        <mxCell id="m2" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="265" y="50" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Волк с Уолл-стрит (2013)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 2">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 100 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Биография/Комедия">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2013">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="265" y="175" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Гравитация (2013)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 5">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 100 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Научная фантастика">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2013">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="m8" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="265" y="300" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Под кожей (2013)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 8">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 13.3 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Научная фантастика">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2013">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="m11" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="265" y="425" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m11" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Дуэт Манкурта (2000)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m11" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 11">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m11" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 12 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m11" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Драма">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m11" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2000">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <!-- col3 -->
+        <mxCell id="m3" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="510" y="50" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Список Шиндлера (1993)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 3">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 22 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Исторический">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 1993">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="510" y="175" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Чёрный лебедь (2010)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 6">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 13 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Психол. триллер">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2010">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="m9" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="510" y="300" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Бэтмен: Начало (2005)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 9">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 150 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Боевик">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2005">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="m12" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="510" y="425" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="m12" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Отступники (2006)">
+          <mxGeometry y="0" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="m12" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 12">
+          <mxGeometry y="26" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m12" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 90 млн USD">
+          <mxGeometry y="47" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m12" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Триллер">
+          <mxGeometry y="68" width="230" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="m12" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2006">
+          <mxGeometry y="89" width="230" height="21" as="geometry" />
+        </mxCell>
+        <!-- DIRECTORS header -->
+        <mxCell id="dhdr" parent="1" vertex="1" style="text;fontSize=15;fontStyle=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;">
+          <mxGeometry x="800" y="10" width="720" height="28" as="geometry" />
+        </mxCell>
+        <mxCell parent="dhdr" vertex="1" style="text;fontSize=15;fontStyle=1;align=center;" value="NODE TABLE: Directors">
+          <mxGeometry width="720" height="28" as="geometry" />
+        </mxCell>
+        <!-- Directors 2 cols -->
+        <mxCell id="d1" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="800" y="50" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Кристофер Нолан">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 1">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = Великобритания/США">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 12">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Начало (1), Бэтмен: Начало (9)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="1155" y="50" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Мартин Скорсезе">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 2">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 9">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Волк с Уолл-стрит (2), Отступники (12)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="800" y="175" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Стивен Спилберг">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 3">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 11">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d3" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Список Шиндлера (3)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="1155" y="175" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Роберт Земекис">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 4">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 5">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d4" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Форрест Гамп (4)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="800" y="300" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Альфонсо Куарон">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 5">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = Мексика">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 7">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d5" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Гравитация (5)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="d6" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="1155" y="300" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Даррен Аронофски">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 6">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 4">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d6" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Чёрный лебедь (6)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="d7" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="800" y="425" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Тодд Филлипс">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 7">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 3">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d7" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Джокер (7)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="d8" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="1155" y="425" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Джонатан Глейзер">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 8">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = Великобритания">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 2">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d8" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Под кожей (8)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="d9" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="800" y="550" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Дэмьен Шазелл">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 9">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 6">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d9" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Ла-Ла Ленд (10)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="d10" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="1155" y="550" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell parent="d10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Мэл Гибсон">
+          <mxGeometry y="0" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="d10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 10">
+          <mxGeometry y="26" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США/Австралия">
+          <mxGeometry y="47" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 4">
+          <mxGeometry y="68" width="340" height="21" as="geometry" />
+        </mxCell>
+        <mxCell parent="d10" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="(нет рёбер DIRECTED)">
+          <mxGeometry y="89" width="340" height="21" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="ACTED_IN" id="pg_ai">
+    <mxGraphModel dx="1500" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1350" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Legend — top right -->
+        <mxCell id="leg" parent="1" vertex="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=12;startSize=28;">
+          <mxGeometry x="950" y="20" width="360" height="82" as="geometry" />
+        </mxCell>
+        <mxCell parent="leg" vertex="1" style="text;fontSize=12;fontStyle=1;align=left;spacingLeft=8;" value="Легенда: EDGE TABLE — ACTED_IN">
+          <mxGeometry y="0" width="360" height="28" as="geometry" />
+        </mxCell>
+        <mxCell parent="leg" vertex="1" style="text;fontSize=11;align=left;spacingLeft=8;" value="🔵 Actors  ──[ACTED_IN]──▶  🟡 Movies">
+          <mxGeometry y="28" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="leg" vertex="1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Атрибуты ребра: RoleName · Salary (млн USD)">
+          <mxGeometry y="54" width="360" height="26" as="geometry" />
+        </mxCell>
+        <!-- Row step = 90px -->
+        <!-- Row 1: ДиКаприо → Начало -->
+        <mxCell id="r1a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="120" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r1a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ДиКаприо (ActorID=1)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r1a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.2 | США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell parent="r1a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="3 роли в базе">
+          <mxGeometry y="48" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r1m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="120" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r1m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Начало (MovieID=1)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r1m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2010 | sci-fi | 160M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell parent="r1m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Режиссёр: Нолан">
+          <mxGeometry y="48" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="r1a" target="r1m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Дом Кобб | $20M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 2: ДиКаприо → Волк -->
+        <mxCell id="r2m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="210" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r2m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Волк с Уолл-стрит (2)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r2m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013 | comedy | 100M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell parent="r2m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Режиссёр: Скорсезе">
+          <mxGeometry y="48" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="r1a" target="r2m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Джордан Белфорт | $25M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 3: ДиКаприо → Отступники -->
+        <mxCell id="r3m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="300" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r3m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Отступники (MovieID=12)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r3m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2006 | thriller | 90M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell parent="r3m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Режиссёр: Скорсезе">
+          <mxGeometry y="48" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="r1a" target="r3m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Агент под прикрытием | $22M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 4: Стрип → Список Шиндлера -->
+        <mxCell id="r4a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="410" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r4a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Стрип (ActorID=2)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r4a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.5 | США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r4m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="410" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r4m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Список Шиндлера (3)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r4m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="1993 | historical | 22M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="r4a" target="r4m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Эпизодическая роль | $5M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 5: Хэнкс → Форрест Гамп -->
+        <mxCell id="r5a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="510" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r5a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Хэнкс (ActorID=3)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r5a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.3 | США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r5m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="510" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r5m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Форрест Гамп (4)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r5m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="1994 | drama | 55M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="r5a" target="r5m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Форрест Гамп | $20M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 6: Бланшетт → Гравитация -->
+        <mxCell id="r6a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="610" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r6a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Бланшетт (ActorID=4)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r6a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.1 | Австралия">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r6m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="610" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r6m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Гравитация (5)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r6m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013 | sci-fi | 100M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="r6a" target="r6m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Д-р Стоун | $15M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 7: Питт → Отступники (уже есть r3m) -->
+        <mxCell id="r7a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="710" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r7a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Питт (ActorID=5)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r7a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.8 | США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="r7a" target="r3m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.8;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Билли Костиган | $20M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 8: Портман → Чёрный лебедь -->
+        <mxCell id="r8a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="810" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r8a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Портман (ActorID=6)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r8a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.7 | Израиль/США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r8m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="810" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r8m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Чёрный лебедь (6)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r8m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2010 | thriller | 13M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="r8a" target="r8m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Нина Сэйерс | $10M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 9: Феникс → Джокер -->
+        <mxCell id="r9a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="910" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r9a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Феникс (ActorID=7)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r9a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.0 | США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r9m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="910" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r9m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Джокер (7)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r9m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2019 | drama | 55M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="r9a" target="r9m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Артур Флек | $4.5M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 10: Йоханссон → Под кожей -->
+        <mxCell id="r10a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="1010" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r10a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Йоханссон (ActorID=8)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r10a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.5 | США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r10m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="1010" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r10m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Под кожей (8)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r10m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013 | sci-fi | 13.3M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="r10a" target="r10m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Пришелец | $3.5M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 11: Бейл → Бэтмен -->
+        <mxCell id="r11a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="1110" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r11a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Бейл (ActorID=9)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r11a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.9 | Великобритания">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r11m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="1110" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r11m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Бэтмен: Начало (9)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r11m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2005 | action | 150M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="r11a" target="r11m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Брюс Уэйн | $10M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 12: Стоун → Ла-Ла Ленд -->
+        <mxCell id="r12a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="1210" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r12a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Стоун (ActorID=10)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r12a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.6 | США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r12m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="1210" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r12m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Ла-Ла Ленд (10)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r12m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2016 | musical | 30M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="r12a" target="r12m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Миа Дорланд | $7M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Row 13: Вашингтон → Отступники -->
+        <mxCell id="r13a" parent="1" vertex="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="1290" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="r13a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Вашингтон (ActorID=11)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="r13a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.1 | США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="r13a" target="r3m" style="fontSize=10;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=1;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="Фрэнк Костелло | $18M" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="DIRECTED" id="pg_dir">
+    <mxGraphModel dx="1500" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
         <!-- Legend -->
-        <mxCell id="leg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=12;startSize=25;" value="Легенда:" vertex="1">
-          <mxGeometry x="860" y="680" width="270" height="95" as="geometry"/>
+        <mxCell id="leg" parent="1" vertex="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=12;startSize=28;">
+          <mxGeometry x="950" y="20" width="360" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="leg1" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="🔵  fillColor=#dae8fc — NODE: Actors" vertex="1">
-          <mxGeometry y="25" width="270" height="22" as="geometry"/>
+        <mxCell parent="leg" vertex="1" style="text;fontSize=12;fontStyle=1;align=left;spacingLeft=8;" value="Легенда: EDGE TABLE — DIRECTED">
+          <mxGeometry y="0" width="360" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="leg2" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Поля: ActorID · FullName · BirthDate · Rating · Nationality" vertex="1">
-          <mxGeometry y="47" width="270" height="22" as="geometry"/>
+        <mxCell parent="leg" vertex="1" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟢 Directors  ──[DIRECTED]──▶  🟡 Movies">
+          <mxGeometry y="28" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="leg3" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Rating: 0–10  |  AS NODE (MS SQL Graph)" vertex="1">
-          <mxGeometry y="69" width="270" height="22" as="geometry"/>
+        <mxCell parent="leg" vertex="1" style="text;fontSize=11;align=left;spacingLeft=8;" value="Атрибуты: ShootingDays · BudgetShare (%)">
+          <mxGeometry y="54" width="360" height="26" as="geometry" />
         </mxCell>
-
-        <!-- Actor 1 -->
-        <mxCell id="a1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Леонардо ДиКаприо" vertex="1">
-          <mxGeometry x="40" y="40" width="230" height="130" as="geometry"/>
+        <!-- step 90 -->
+        <!-- Нолан → Начало -->
+        <mxCell id="dd1a" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="120" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="a1f1" parent="a1" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 1" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a1f2" parent="a1" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1974-11-11" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a1f3" parent="a1" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 9.2" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a1f4" parent="a1" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = США" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 2 -->
-        <mxCell id="a2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Мэрил Стрип" vertex="1">
-          <mxGeometry x="300" y="40" width="230" height="130" as="geometry"/>
+        <mxCell parent="dd1a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Нолан (DirectorID=1)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="a2f1" parent="a2" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 2" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a2f2" parent="a2" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1949-06-22" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a2f3" parent="a2" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 9.5" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a2f4" parent="a2" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = США" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 3 -->
-        <mxCell id="a3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Том Хэнкс" vertex="1">
-          <mxGeometry x="560" y="40" width="230" height="130" as="geometry"/>
+        <mxCell parent="dd1a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=12 | UK/USA">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="a3f1" parent="a3" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 3" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a3f2" parent="a3" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1956-07-09" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a3f3" parent="a3" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 9.3" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a3f4" parent="a3" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = США" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 4 -->
-        <mxCell id="a4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Кейт Бланшетт" vertex="1">
-          <mxGeometry x="820" y="40" width="230" height="130" as="geometry"/>
+        <mxCell parent="dd1a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2 фильма в базе">
+          <mxGeometry y="48" width="200" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="a4f1" parent="a4" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 4" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a4f2" parent="a4" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1969-05-14" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a4f3" parent="a4" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 9.1" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a4f4" parent="a4" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = Австралия" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 5 -->
-        <mxCell id="a5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Брэд Питт" vertex="1">
-          <mxGeometry x="40" y="210" width="230" height="130" as="geometry"/>
+        <mxCell id="dd1m1" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="120" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="a5f1" parent="a5" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 5" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a5f2" parent="a5" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1963-12-18" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a5f3" parent="a5" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 8.8" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a5f4" parent="a5" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = США" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 6 -->
-        <mxCell id="a6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Натали Портман" vertex="1">
-          <mxGeometry x="300" y="210" width="230" height="130" as="geometry"/>
+        <mxCell parent="dd1m1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Начало (MovieID=1)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="a6f1" parent="a6" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 6" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a6f2" parent="a6" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1981-06-09" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a6f3" parent="a6" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 8.7" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a6f4" parent="a6" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = Израиль/США" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 7 -->
-        <mxCell id="a7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Хоакин Феникс" vertex="1">
-          <mxGeometry x="560" y="210" width="230" height="130" as="geometry"/>
+        <mxCell parent="dd1m1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2010 | sci-fi | 160M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="a7f1" parent="a7" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 7" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a7f2" parent="a7" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1974-10-28" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a7f3" parent="a7" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 9.0" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a7f4" parent="a7" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = США" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 8 -->
-        <mxCell id="a8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Скарлетт Йоханссон" vertex="1">
-          <mxGeometry x="820" y="210" width="230" height="130" as="geometry"/>
+        <mxCell id="de1" edge="1" parent="1" source="dd1a" target="dd1m1" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="148 дней | 85%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
         </mxCell>
-        <mxCell id="a8f1" parent="a8" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 8" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a8f2" parent="a8" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1984-11-22" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a8f3" parent="a8" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 8.5" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a8f4" parent="a8" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = США" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 9 -->
-        <mxCell id="a9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Кристиан Бейл" vertex="1">
-          <mxGeometry x="40" y="380" width="230" height="130" as="geometry"/>
+        <!-- Нолан → Бэтмен -->
+        <mxCell id="dd1m2" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="210" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="a9f1" parent="a9" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 9" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a9f2" parent="a9" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1974-01-30" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a9f3" parent="a9" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 8.9" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a9f4" parent="a9" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = Великобритания" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 10 -->
-        <mxCell id="a10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Эмма Стоун" vertex="1">
-          <mxGeometry x="300" y="380" width="230" height="130" as="geometry"/>
+        <mxCell parent="dd1m2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Бэтмен: Начало (9)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="a10f1" parent="a10" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 10" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a10f2" parent="a10" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1988-11-06" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a10f3" parent="a10" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 8.6" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a10f4" parent="a10" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = США" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
-        <!-- Actor 11 -->
-        <mxCell id="a11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Дензел Вашингтон" vertex="1">
-          <mxGeometry x="560" y="380" width="230" height="130" as="geometry"/>
+        <mxCell parent="dd1m2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2005 | action | 150M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="a11f1" parent="a11" style="text;fontSize=12;align=left;spacingLeft=8;" value="ActorID = 11" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a11f2" parent="a11" style="text;fontSize=12;align=left;spacingLeft=8;" value="BirthDate = 1954-12-28" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a11f3" parent="a11" style="text;fontSize=12;align=left;spacingLeft=8;" value="Rating = 9.1" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
-        <mxCell id="a11f4" parent="a11" style="text;fontSize=12;align=left;spacingLeft=8;" value="Nationality = США" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
-
+        <mxCell id="de1b" edge="1" parent="1" source="dd1a" target="dd1m2" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="180 дней | 87%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Скорсезе → Волк -->
+        <mxCell id="dd2a" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="310" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd2a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Скорсезе (DirectorID=2)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd2a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=9 | США">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd2a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2 фильма в базе">
+          <mxGeometry y="48" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dd2m1" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="310" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd2m1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Волк с Уолл-стрит (2)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd2m1" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013 | comedy | 100M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="de2" edge="1" parent="1" source="dd2a" target="dd2m1" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="130 дней | 80%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Скорсезе → Отступники -->
+        <mxCell id="dd2m2" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="400" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd2m2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Отступники (12)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd2m2" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2006 | thriller | 90M">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="de2b" edge="1" parent="1" source="dd2a" target="dd2m2" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="120 дней | 78%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Спилберг → Список Шиндлера -->
+        <mxCell id="dd3a" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="500" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd3a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Спилберг (DirectorID=3)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd3a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=11 | США">
+          <mxGeometry y="26" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dd3m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="500" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd3m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Список Шиндлера (3)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd3m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="1993 | historical | 22M">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="de3" edge="1" parent="1" source="dd3a" target="dd3m" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="72 дня | 90%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Земекис → Форрест Гамп -->
+        <mxCell id="dd4a" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="580" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd4a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Земекис (DirectorID=4)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd4a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=5 | США">
+          <mxGeometry y="26" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dd4m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="580" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd4m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Форрест Гамп (4)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd4m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="1994 | drama | 55M">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="de4" edge="1" parent="1" source="dd4a" target="dd4m" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="110 дней | 75%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Куарон → Гравитация -->
+        <mxCell id="dd5a" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="660" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd5a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Куарон (DirectorID=5)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd5a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=7 | Мексика">
+          <mxGeometry y="26" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="660" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd5m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Гравитация (5)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd5m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013 | sci-fi | 100M">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="de5" edge="1" parent="1" source="dd5a" target="dd5m" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="78 дней | 88%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Аронофски → Чёрный лебедь -->
+        <mxCell id="dd6a" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="740" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd6a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Аронофски (DirectorID=6)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd6a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=4 | США">
+          <mxGeometry y="26" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dd6m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="740" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd6m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Чёрный лебедь (6)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd6m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2010 | thriller | 13M">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="de6" edge="1" parent="1" source="dd6a" target="dd6m" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="42 дня | 92%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Филлипс → Джокер -->
+        <mxCell id="dd7a" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="820" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd7a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Филлипс (DirectorID=7)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd7a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=3 | США">
+          <mxGeometry y="26" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dd7m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="820" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd7m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Джокер (7)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd7m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2019 | drama | 55M">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="de7" edge="1" parent="1" source="dd7a" target="dd7m" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="96 дней | 70%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Глейзер → Под кожей -->
+        <mxCell id="dd8a" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="900" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd8a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Глейзер (DirectorID=8)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd8a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=2 | Великобритания">
+          <mxGeometry y="26" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dd8m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="900" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd8m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Под кожей (8)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd8m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013 | sci-fi | 13.3M">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="de8" edge="1" parent="1" source="dd8a" target="dd8m" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="56 дней | 95%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <!-- Шазелл → Ла-Ла Ленд -->
+        <mxCell id="dd9a" parent="1" vertex="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="30" y="980" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd9a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Шазелл (DirectorID=9)">
+          <mxGeometry y="0" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd9a" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=6 | США">
+          <mxGeometry y="26" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dd9m" parent="1" vertex="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=26;">
+          <mxGeometry x="700" y="980" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd9m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Ла-Ла Ленд (10)">
+          <mxGeometry y="0" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell parent="dd9m" vertex="1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2016 | musical | 30M">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="de9" edge="1" parent="1" source="dd9a" target="dd9m" style="fontSize=10;endArrow=block;endFill=1;strokeColor=#82b366;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeLabel;fontSize=10;align=center;resizable=0;" value="54 дня | 82%" as="label" vertex="1" connectable="0">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-
-  <!-- ═══════════════════════════════════════════════════════
-       Страница 2: Фильмы и Режиссёры (NODE TABLES)
-  ══════════════════════════════════════════════════════════ -->
-  <diagram name="movies_directors" id="movies_directors_page">
-    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="827" math="0" shadow="0">
+  <diagram name="FOLLOWS" id="pg_fol">
+    <mxGraphModel dx="1577" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
-        <!-- ── MOVIES ── -->
-        <mxCell id="mov_hdr" parent="1" style="text;fontSize=16;fontStyle=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" value="NODE TABLE: Movies" vertex="1">
-          <mxGeometry x="30" y="10" width="680" height="30" as="geometry"/>
+        <mxCell id="leg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=12;startSize=28;" vertex="1">
+          <mxGeometry height="100" width="360" x="1000" y="700" as="geometry" />
         </mxCell>
-
-        <!-- Movie 1 -->
-        <mxCell id="m1" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Начало (2010)" vertex="1">
-          <mxGeometry x="30" y="50" width="210" height="120" as="geometry"/>
+        <mxCell id="2" parent="leg" style="text;fontSize=12;fontStyle=1;align=left;spacingLeft=8;" value="Легенда: EDGE TABLE — FOLLOWS" vertex="1">
+          <mxGeometry height="28" width="360" as="geometry" />
         </mxCell>
-        <mxCell id="m1f1" parent="m1" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 1" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m1f2" parent="m1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 160 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m1f3" parent="m1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Научная фантастика" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m1f4" parent="m1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2010" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 2 -->
-        <mxCell id="m2" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Волк с Уолл-стрит (2013)" vertex="1">
-          <mxGeometry x="255" y="50" width="210" height="120" as="geometry"/>
+        <mxCell id="3" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="🔵 Actor ──[FOLLOWS]──▶ 🔵 Actor" vertex="1">
+          <mxGeometry height="26" width="360" y="28" as="geometry" />
         </mxCell>
-        <mxCell id="m2f1" parent="m2" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 2" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m2f2" parent="m2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 100 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m2f3" parent="m2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Биография/Комедия" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m2f4" parent="m2" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2013" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 3 -->
-        <mxCell id="m3" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Список Шиндлера (1993)" vertex="1">
-          <mxGeometry x="480" y="50" width="210" height="120" as="geometry"/>
+        <mxCell id="4" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Атрибуты: SinceDate · Platform" vertex="1">
+          <mxGeometry height="26" width="360" y="54" as="geometry" />
         </mxCell>
-        <mxCell id="m3f1" parent="m3" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 3" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m3f2" parent="m3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 22 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m3f3" parent="m3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Исторический" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m3f4" parent="m3" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 1993" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 4 -->
-        <mxCell id="m4" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Форрест Гамп (1994)" vertex="1">
-          <mxGeometry x="30" y="185" width="210" height="120" as="geometry"/>
+        <mxCell id="5" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Платформы: Instagram / Twitter / TikTok" vertex="1">
+          <mxGeometry height="22" width="360" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="m4f1" parent="m4" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 4" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m4f2" parent="m4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 55 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m4f3" parent="m4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Драма" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m4f4" parent="m4" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 1994" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 5 -->
-        <mxCell id="m5" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Гравитация (2013)" vertex="1">
-          <mxGeometry x="255" y="185" width="210" height="120" as="geometry"/>
+        <mxCell id="f1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="30" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="m5f1" parent="m5" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 5" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m5f2" parent="m5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 100 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m5f3" parent="m5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Научная фантастика" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m5f4" parent="m5" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2013" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 6 -->
-        <mxCell id="m6" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Чёрный лебедь (2010)" vertex="1">
-          <mxGeometry x="480" y="185" width="210" height="120" as="geometry"/>
+        <mxCell id="6" parent="f1" style="text;fontSize=11;align=left;spacingLeft=6;" value="ДиКаприо (1)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
         </mxCell>
-        <mxCell id="m6f1" parent="m6" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 6" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m6f2" parent="m6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 13 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m6f3" parent="m6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Психол. триллер" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m6f4" parent="m6" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2010" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 7 -->
-        <mxCell id="m7" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Джокер (2019)" vertex="1">
-          <mxGeometry x="30" y="320" width="210" height="120" as="geometry"/>
+        <mxCell id="7" parent="f1" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.2 | США" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="m7f1" parent="m7" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 7" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m7f2" parent="m7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 55 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m7f3" parent="m7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Триллер/Драма" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m7f4" parent="m7" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2019" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 8 -->
-        <mxCell id="m8" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Под кожей (2013)" vertex="1">
-          <mxGeometry x="255" y="320" width="210" height="120" as="geometry"/>
+        <mxCell id="8" parent="f1" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Питт, Йоханссон" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
         </mxCell>
-        <mxCell id="m8f1" parent="m8" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 8" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m8f2" parent="m8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 13.3 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m8f3" parent="m8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Научная фантастика" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m8f4" parent="m8" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2013" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 9 -->
-        <mxCell id="m9" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Бэтмен: Начало (2005)" vertex="1">
-          <mxGeometry x="480" y="320" width="210" height="120" as="geometry"/>
+        <mxCell id="f2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="310" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="m9f1" parent="m9" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 9" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m9f2" parent="m9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 150 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m9f3" parent="m9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Боевик" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m9f4" parent="m9" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2005" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 10 -->
-        <mxCell id="m10" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Ла-Ла Ленд (2016)" vertex="1">
-          <mxGeometry x="30" y="455" width="210" height="120" as="geometry"/>
+        <mxCell id="9" parent="f2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Стрип (2)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
         </mxCell>
-        <mxCell id="m10f1" parent="m10" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 10" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m10f2" parent="m10" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 30 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m10f3" parent="m10" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Мюзикл/Романтика" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m10f4" parent="m10" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2016" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 11 -->
-        <mxCell id="m11" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Дуэт Манкурта (2000)" vertex="1">
-          <mxGeometry x="255" y="455" width="210" height="120" as="geometry"/>
+        <mxCell id="10" parent="f2" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.5 | США" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="m11f1" parent="m11" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 11" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m11f2" parent="m11" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 12 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m11f3" parent="m11" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Драма" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m11f4" parent="m11" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2000" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- Movie 12 -->
-        <mxCell id="m12" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=28;" value="Отступники (2006)" vertex="1">
-          <mxGeometry x="480" y="455" width="210" height="120" as="geometry"/>
+        <mxCell id="11" parent="f2" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Хэнкс" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
         </mxCell>
-        <mxCell id="m12f1" parent="m12" style="text;fontSize=11;align=left;spacingLeft=6;" value="MovieID = 12" vertex="1"><mxGeometry y="28" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m12f2" parent="m12" style="text;fontSize=11;align=left;spacingLeft=6;" value="Budget = 90 млн USD" vertex="1"><mxGeometry y="51" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m12f3" parent="m12" style="text;fontSize=11;align=left;spacingLeft=6;" value="Genre = Триллер" vertex="1"><mxGeometry y="74" width="210" height="23" as="geometry"/></mxCell>
-        <mxCell id="m12f4" parent="m12" style="text;fontSize=11;align=left;spacingLeft=6;" value="ReleaseYear = 2006" vertex="1"><mxGeometry y="97" width="210" height="23" as="geometry"/></mxCell>
-
-        <!-- ── DIRECTORS ── -->
-        <mxCell id="dir_hdr" parent="1" style="text;fontSize=16;fontStyle=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="NODE TABLE: Directors" vertex="1">
-          <mxGeometry x="730" y="10" width="580" height="30" as="geometry"/>
+        <mxCell id="f3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="590" y="30" as="geometry" />
         </mxCell>
-
-        <!-- Director 1 -->
-        <mxCell id="d1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Кристофер Нолан" vertex="1">
-          <mxGeometry x="730" y="50" width="230" height="120" as="geometry"/>
+        <mxCell id="12" parent="f3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Хэнкс (3)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
         </mxCell>
-        <mxCell id="d1f1" parent="d1" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 1" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d1f2" parent="d1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = Великобритания/США" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d1f3" parent="d1" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 12" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d1f4" parent="d1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: Начало, Бэтмен: Начало" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
-        <!-- Director 2 -->
-        <mxCell id="d2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Мартин Скорсезе" vertex="1">
-          <mxGeometry x="980" y="50" width="230" height="120" as="geometry"/>
+        <mxCell id="13" parent="f3" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.3 | США" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="d2f1" parent="d2" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 2" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d2f2" parent="d2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d2f3" parent="d2" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 9" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d2f4" parent="d2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: Волк, Отступники" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
-        <!-- Director 3 -->
-        <mxCell id="d3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Стивен Спилберг" vertex="1">
-          <mxGeometry x="730" y="185" width="230" height="120" as="geometry"/>
+        <mxCell id="14" parent="f3" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Феникс" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
         </mxCell>
-        <mxCell id="d3f1" parent="d3" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 3" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d3f2" parent="d3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d3f3" parent="d3" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 11" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d3f4" parent="d3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: Список Шиндлера" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
-        <!-- Director 4 -->
-        <mxCell id="d4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Роберт Земекис" vertex="1">
-          <mxGeometry x="980" y="185" width="230" height="120" as="geometry"/>
+        <mxCell id="f4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="870" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="d4f1" parent="d4" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 4" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d4f2" parent="d4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d4f3" parent="d4" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 5" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d4f4" parent="d4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: Форрест Гамп" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
-        <!-- Director 5 -->
-        <mxCell id="d5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Альфонсо Куарон" vertex="1">
-          <mxGeometry x="730" y="320" width="230" height="120" as="geometry"/>
+        <mxCell id="15" parent="f4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Бланшетт (4)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
         </mxCell>
-        <mxCell id="d5f1" parent="d5" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 5" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d5f2" parent="d5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = Мексика" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d5f3" parent="d5" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 7" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d5f4" parent="d5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: Гравитация" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
-        <!-- Director 6 -->
-        <mxCell id="d6" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Даррен Аронофски" vertex="1">
-          <mxGeometry x="980" y="320" width="230" height="120" as="geometry"/>
+        <mxCell id="16" parent="f4" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.1 | Австралия" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="d6f1" parent="d6" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 6" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d6f2" parent="d6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d6f3" parent="d6" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 4" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d6f4" parent="d6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: Чёрный лебедь" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
-        <!-- Director 7 -->
-        <mxCell id="d7" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Тодд Филлипс" vertex="1">
-          <mxGeometry x="730" y="455" width="230" height="120" as="geometry"/>
+        <mxCell id="17" parent="f4" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Стрип" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
         </mxCell>
-        <mxCell id="d7f1" parent="d7" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 7" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d7f2" parent="d7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d7f3" parent="d7" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 3" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d7f4" parent="d7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: Джокер" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
-        <!-- Director 8 -->
-        <mxCell id="d8" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Джонатан Глейзер" vertex="1">
-          <mxGeometry x="980" y="455" width="230" height="120" as="geometry"/>
+        <mxCell id="f5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="30" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="d8f1" parent="d8" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 8" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d8f2" parent="d8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = Великобритания" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d8f3" parent="d8" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 2" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d8f4" parent="d8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: Под кожей" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
-        <!-- Director 9 -->
-        <mxCell id="d9" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Дэмьен Шазелл" vertex="1">
-          <mxGeometry x="730" y="590" width="230" height="120" as="geometry"/>
+        <mxCell id="18" parent="f5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Питт (5)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
         </mxCell>
-        <mxCell id="d9f1" parent="d9" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 9" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d9f2" parent="d9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d9f3" parent="d9" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 6" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d9f4" parent="d9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: Ла-Ла Ленд" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
-        <!-- Director 10 -->
-        <mxCell id="d10" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;" value="Мэл Гибсон" vertex="1">
-          <mxGeometry x="980" y="590" width="230" height="120" as="geometry"/>
+        <mxCell id="19" parent="f5" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.8 | США" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="d10f1" parent="d10" style="text;fontSize=11;align=left;spacingLeft=6;" value="DirectorID = 10" vertex="1"><mxGeometry y="28" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d10f2" parent="d10" style="text;fontSize=11;align=left;spacingLeft=6;" value="Country = США/Австралия" vertex="1"><mxGeometry y="51" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d10f3" parent="d10" style="text;fontSize=11;align=left;spacingLeft=6;" value="AwardsCount = 4" vertex="1"><mxGeometry y="74" width="230" height="23" as="geometry"/></mxCell>
-        <mxCell id="d10f4" parent="d10" style="text;fontSize=11;align=left;spacingLeft=6;" value="Фильмы: (нет в DIRECTED)" vertex="1"><mxGeometry y="97" width="230" height="23" as="geometry"/></mxCell>
-
+        <mxCell id="20" parent="f5" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Стрип" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="310" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="f6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Портман (6)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="f6" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.7 | Израиль/США" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="f6" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Йоханссон" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="590" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="f7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Феникс (7)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="f7" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.0 | США" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="f7" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Бейл" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="870" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="f8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Йоханссон (8)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="f8" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.5 | США" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="f8" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Стоун" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="30" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="f9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Бейл (9)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="f9" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.9 | Великобритания" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="f9" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ ДиКаприо" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="310" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="f10" style="text;fontSize=11;align=left;spacingLeft=6;" value="Стоун (10)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="f10" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.6 | США" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="f10" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ Портман" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="66" width="240" x="590" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="f11" style="text;fontSize=11;align=left;spacingLeft=6;" value="Вашингтон (11)" vertex="1">
+          <mxGeometry height="26" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="f11" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.1 | США" vertex="1">
+          <mxGeometry height="20" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="f11" style="text;fontSize=11;align=left;spacingLeft=6;" value="→ ДиКаприо" vertex="1">
+          <mxGeometry height="20" width="240" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="fe1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#E040FB;exitX=0;exitY=1;exitPerimeter=0;entryX=0;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140.03" y="230" />
+              <mxPoint x="140.03" y="230" />
+            </Array>
+            <mxPoint x="140" y="96" as="sourcePoint" />
+            <mxPoint x="140" y="250" as="targetPoint" />
+          </mxGeometry>
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Instagram&#xa;2015-03-12" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe2" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#FF5252;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="154" />
+              <mxPoint x="990" y="154" />
+            </Array>
+            <mxPoint x="150.02857142857147" y="120" as="sourcePoint" />
+            <mxPoint x="990" y="250" as="targetPoint" />
+          </mxGeometry>
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="TikTok&#xa;2023-02-28" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe3" edge="1" parent="1" source="f5" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#1DA1F2;exitX=1;exitY=0;exitPerimeter=0;entryX=0;entryY=1;entryPerimeter=0;" target="f2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="240" />
+              <mxPoint x="310" y="240" />
+            </Array>
+          </mxGeometry>
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Twitter&#xa;2016-07-04" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe4" edge="1" parent="1" source="f2" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#E040FB;" target="f3">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Instagram&#xa;2017-01-20" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe5" edge="1" parent="1" source="f3" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#1DA1F2;" target="f7">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Twitter&#xa;2019-10-05" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe6" edge="1" parent="1" source="f4" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#E040FB;" target="f2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="10" />
+              <mxPoint x="430" y="10" />
+            </Array>
+          </mxGeometry>
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Instagram&#xa;2017-09-09" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe7" edge="1" parent="1" source="f6" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#E040FB;" target="f8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="190" />
+              <mxPoint x="980" y="190" />
+            </Array>
+          </mxGeometry>
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Instagram&#xa;2019-05-20" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe8" edge="1" parent="1" source="f7" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#E040FB;" target="f9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="360" />
+              <mxPoint x="150" y="360" />
+            </Array>
+          </mxGeometry>
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Instagram&#xa;2020-02-14" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe9" edge="1" parent="1" source="f8" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#E040FB;" target="f10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="400" />
+              <mxPoint x="440" y="400" />
+            </Array>
+          </mxGeometry>
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Instagram&#xa;2021-03-01" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe10" edge="1" parent="1" source="f9" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#FF5252;exitX=0;exitY=0.5;exitPerimeter=0;entryX=0;entryY=1;entryPerimeter=0;" target="f1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="503" />
+              <mxPoint x="10" y="96" />
+            </Array>
+          </mxGeometry>
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="TikTok&#xa;2018-06-30" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe11" edge="1" parent="1" source="f10" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#1DA1F2;exitX=0.5;exitY=0;exitPerimeter=0;entryX=0.5;entryY=1;entryPerimeter=0;" target="f6">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Twitter&#xa;2020-11-11" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="fe12" edge="1" parent="1" source="f11" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#1DA1F2;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=1;entryPerimeter=0;" target="f1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="440" />
+              <mxPoint x="280" y="440" />
+              <mxPoint x="280" y="96" />
+            </Array>
+          </mxGeometry>
+          <mxCell id="root" connectable="0" style="edgeLabel;fontSize=9;align=center;resizable=0;" value="Twitter&#xa;2022-01-01" vertex="1" as="label">
+            <mxGeometry relative="0.5" as="geometry" />
+          </mxCell>
+        </mxCell>
+        <mxCell id="pcleg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=11;startSize=26;" vertex="1">
+          <mxGeometry height="100" width="360" x="1000" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="pcleg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Цвет рёбер по платформе:" vertex="1">
+          <mxGeometry height="26" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="pcleg" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#E040FB;" value="━━ Instagram (фиолетовый)" vertex="1">
+          <mxGeometry height="24" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="pcleg" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#1DA1F2;" value="━━ Twitter (голубой)" vertex="1">
+          <mxGeometry height="24" width="360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="pcleg" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#FF5252;" value="━━ TikTok (красный)" vertex="1">
+          <mxGeometry height="24" width="360" y="74" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-
-  <!-- ═══════════════════════════════════════════════════════
-       Страница 3: ACTED_IN — Actor → Movie
-  ══════════════════════════════════════════════════════════ -->
-  <diagram name="ACTED_IN" id="acted_in_page">
-    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Legend -->
-        <mxCell id="leg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=12;startSize=25;" value="Легенда:" vertex="1">
-          <mxGeometry x="1050" y="750" width="310" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="leg1" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="🔵 Actors  →  🟡 Movies" vertex="1"><mxGeometry y="25" width="310" height="22" as="geometry"/></mxCell>
-        <mxCell id="leg2" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Рёбра: RoleName · Salary (млн USD)" vertex="1"><mxGeometry y="47" width="310" height="22" as="geometry"/></mxCell>
-
-        <!-- Actors (left) -->
-        <mxCell id="ai_a1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="ДиКаприо (1)" vertex="1"><mxGeometry x="30" y="30" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a1s" parent="ai_a1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.2, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Стрип (2)" vertex="1"><mxGeometry x="30" y="110" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a2s" parent="ai_a2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.5, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Хэнкс (3)" vertex="1"><mxGeometry x="30" y="190" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a3s" parent="ai_a3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.3, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Бланшетт (4)" vertex="1"><mxGeometry x="30" y="270" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a4s" parent="ai_a4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.1, Австралия" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Питт (5)" vertex="1"><mxGeometry x="30" y="350" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a5s" parent="ai_a5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.8, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Портман (6)" vertex="1"><mxGeometry x="30" y="430" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a6s" parent="ai_a6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.7, Израиль" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Феникс (7)" vertex="1"><mxGeometry x="30" y="510" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a7s" parent="ai_a7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.0, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Йоханссон (8)" vertex="1"><mxGeometry x="30" y="590" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a8s" parent="ai_a8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.5, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Бейл (9)" vertex="1"><mxGeometry x="30" y="670" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a9s" parent="ai_a9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.9, Великобритания" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Стоун (10)" vertex="1"><mxGeometry x="30" y="750" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a10s" parent="ai_a10" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=8.6, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_a11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Вашингтон (11)" vertex="1"><mxGeometry x="30" y="830" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_a11s" parent="ai_a11" style="text;fontSize=11;align=left;spacingLeft=6;" value="Rating=9.1, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <!-- Movies (right) -->
-        <mxCell id="ai_m1" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Начало (1)" vertex="1"><mxGeometry x="900" y="30" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m1s" parent="ai_m1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2010, sci-fi, 160M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m2" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Волк с Уолл-стрит (2)" vertex="1"><mxGeometry x="900" y="120" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m2s" parent="ai_m2" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013, comedy, 100M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m3" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Список Шиндлера (3)" vertex="1"><mxGeometry x="900" y="210" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m3s" parent="ai_m3" style="text;fontSize=11;align=left;spacingLeft=6;" value="1993, historical, 22M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m4" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Форрест Гамп (4)" vertex="1"><mxGeometry x="900" y="300" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m4s" parent="ai_m4" style="text;fontSize=11;align=left;spacingLeft=6;" value="1994, drama, 55M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m5" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Гравитация (5)" vertex="1"><mxGeometry x="900" y="390" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m5s" parent="ai_m5" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013, sci-fi, 100M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m6" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Чёрный лебедь (6)" vertex="1"><mxGeometry x="900" y="480" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m6s" parent="ai_m6" style="text;fontSize=11;align=left;spacingLeft=6;" value="2010, thriller, 13M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m7" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Джокер (7)" vertex="1"><mxGeometry x="900" y="570" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m7s" parent="ai_m7" style="text;fontSize=11;align=left;spacingLeft=6;" value="2019, drama, 55M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m8" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Под кожей (8)" vertex="1"><mxGeometry x="900" y="660" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m8s" parent="ai_m8" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013, sci-fi, 13.3M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m9" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Бэтмен: Начало (9)" vertex="1"><mxGeometry x="900" y="750" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m9s" parent="ai_m9" style="text;fontSize=11;align=left;spacingLeft=6;" value="2005, action, 150M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m10" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Ла-Ла Ленд (10)" vertex="1"><mxGeometry x="900" y="840" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m10s" parent="ai_m10" style="text;fontSize=11;align=left;spacingLeft=6;" value="2016, musical, 30M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="ai_m12" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Отступники (12)" vertex="1"><mxGeometry x="900" y="930" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="ai_m12s" parent="ai_m12" style="text;fontSize=11;align=left;spacingLeft=6;" value="2006, thriller, 90M" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <!-- EDGES: ACTED_IN -->
-        <!-- ДиКаприо → Начало -->
-        <mxCell id="e1" edge="1" parent="1" source="ai_a1" target="ai_m1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" value="[ACTED_IN]&#xa;Дом Кобб | $20M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- ДиКаприо → Волк -->
-        <mxCell id="e2" edge="1" parent="1" source="ai_a1" target="ai_m2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Джордан Белфорт | $25M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- ДиКаприо → Отступники -->
-        <mxCell id="e3" edge="1" parent="1" source="ai_a1" target="ai_m12" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Агент под прикрытием | $22M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Стрип → Список Шиндлера -->
-        <mxCell id="e4" edge="1" parent="1" source="ai_a2" target="ai_m3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Эпизодическая роль | $5M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Хэнкс → Форрест Гамп -->
-        <mxCell id="e5" edge="1" parent="1" source="ai_a3" target="ai_m4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Форрест Гамп | $20M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Бланшетт → Гравитация -->
-        <mxCell id="e6" edge="1" parent="1" source="ai_a4" target="ai_m5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Д-р Стоун | $15M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Питт → Отступники -->
-        <mxCell id="e7" edge="1" parent="1" source="ai_a5" target="ai_m12" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Билли Костиган | $20M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Портман → Чёрный лебедь -->
-        <mxCell id="e8" edge="1" parent="1" source="ai_a6" target="ai_m6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Нина Сэйерс | $10M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Феникс → Джокер -->
-        <mxCell id="e9" edge="1" parent="1" source="ai_a7" target="ai_m7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Артур Флек | $4.5M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Йоханссон → Под кожей -->
-        <mxCell id="e10" edge="1" parent="1" source="ai_a8" target="ai_m8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Пришелец | $3.5M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Бейл → Бэтмен -->
-        <mxCell id="e11" edge="1" parent="1" source="ai_a9" target="ai_m9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Брюс Уэйн | $10M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Стоун → Ла-Ла Ленд -->
-        <mxCell id="e12" edge="1" parent="1" source="ai_a10" target="ai_m10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Миа Дорланд | $7M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- Вашингтон → Отступники -->
-        <mxCell id="e13" edge="1" parent="1" source="ai_a11" target="ai_m12" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[ACTED_IN]&#xa;Фрэнк Костелло | $18M">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-
-      </root>
-    </mxGraphModel>
-  </diagram>
-
-  <!-- ═══════════════════════════════════════════════════════
-       Страница 4: DIRECTED — Director → Movie
-  ══════════════════════════════════════════════════════════ -->
-  <diagram name="DIRECTED" id="directed_page">
-    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Legend -->
-        <mxCell id="leg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=12;startSize=25;" value="Легенда:" vertex="1">
-          <mxGeometry x="930" y="680" width="250" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="leg1" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟢 Directors  →  🟡 Movies" vertex="1"><mxGeometry y="25" width="250" height="22" as="geometry"/></mxCell>
-        <mxCell id="leg2" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Рёбра: ShootingDays · BudgetShare%" vertex="1"><mxGeometry y="47" width="250" height="22" as="geometry"/></mxCell>
-
-        <!-- Directors (left) -->
-        <mxCell id="dr_d1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Нолан (1)" vertex="1"><mxGeometry x="30" y="30" width="170" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_d1s" parent="dr_d1" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=12, UK/USA" vertex="1"><mxGeometry y="25" width="170" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_d2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Скорсезе (2)" vertex="1"><mxGeometry x="30" y="115" width="170" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_d2s" parent="dr_d2" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=9, USA" vertex="1"><mxGeometry y="25" width="170" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_d3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Спилберг (3)" vertex="1"><mxGeometry x="30" y="200" width="170" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_d3s" parent="dr_d3" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=11, USA" vertex="1"><mxGeometry y="25" width="170" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_d4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Земекис (4)" vertex="1"><mxGeometry x="30" y="285" width="170" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_d4s" parent="dr_d4" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=5, USA" vertex="1"><mxGeometry y="25" width="170" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_d5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Куарон (5)" vertex="1"><mxGeometry x="30" y="370" width="170" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_d5s" parent="dr_d5" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=7, Мексика" vertex="1"><mxGeometry y="25" width="170" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_d6" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Аронофски (6)" vertex="1"><mxGeometry x="30" y="455" width="170" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_d6s" parent="dr_d6" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=4, USA" vertex="1"><mxGeometry y="25" width="170" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_d7" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Филлипс (7)" vertex="1"><mxGeometry x="30" y="540" width="170" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_d7s" parent="dr_d7" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=3, USA" vertex="1"><mxGeometry y="25" width="170" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_d8" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Глейзер (8)" vertex="1"><mxGeometry x="30" y="625" width="170" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_d8s" parent="dr_d8" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=2, UK" vertex="1"><mxGeometry y="25" width="170" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_d9" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Шазелл (9)" vertex="1"><mxGeometry x="30" y="710" width="170" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_d9s" parent="dr_d9" style="text;fontSize=11;align=left;spacingLeft=6;" value="Awards=6, USA" vertex="1"><mxGeometry y="25" width="170" height="25" as="geometry"/></mxCell>
-
-        <!-- Movies (right) -->
-        <mxCell id="dr_m1" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Начало (1)" vertex="1"><mxGeometry x="850" y="30" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m1s" parent="dr_m1" style="text;fontSize=11;align=left;spacingLeft=6;" value="2010, sci-fi" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m2" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Волк с Уолл-стрит (2)" vertex="1"><mxGeometry x="850" y="120" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m2s" parent="dr_m2" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013, comedy" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m3" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Список Шиндлера (3)" vertex="1"><mxGeometry x="850" y="210" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m3s" parent="dr_m3" style="text;fontSize=11;align=left;spacingLeft=6;" value="1993, historical" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m4" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Форрест Гамп (4)" vertex="1"><mxGeometry x="850" y="300" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m4s" parent="dr_m4" style="text;fontSize=11;align=left;spacingLeft=6;" value="1994, drama" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m5" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Гравитация (5)" vertex="1"><mxGeometry x="850" y="390" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m5s" parent="dr_m5" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013, sci-fi" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m6" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Чёрный лебедь (6)" vertex="1"><mxGeometry x="850" y="480" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m6s" parent="dr_m6" style="text;fontSize=11;align=left;spacingLeft=6;" value="2010, thriller" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m7" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Джокер (7)" vertex="1"><mxGeometry x="850" y="570" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m7s" parent="dr_m7" style="text;fontSize=11;align=left;spacingLeft=6;" value="2019, drama" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m8" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Под кожей (8)" vertex="1"><mxGeometry x="850" y="660" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m8s" parent="dr_m8" style="text;fontSize=11;align=left;spacingLeft=6;" value="2013, sci-fi" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m9" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Бэтмен: Начало (9)" vertex="1"><mxGeometry x="850" y="750" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m9s" parent="dr_m9" style="text;fontSize=11;align=left;spacingLeft=6;" value="2005, action" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m10" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Ла-Ла Ленд (10)" vertex="1"><mxGeometry x="600" y="750" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m10s" parent="dr_m10" style="text;fontSize=11;align=left;spacingLeft=6;" value="2016, musical" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="dr_m12" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="Отступники (12)" vertex="1"><mxGeometry x="600" y="840" width="180" height="50" as="geometry"/></mxCell>
-        <mxCell id="dr_m12s" parent="dr_m12" style="text;fontSize=11;align=left;spacingLeft=6;" value="2006, thriller" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
-
-        <!-- Edges DIRECTED -->
-        <mxCell id="de1" edge="1" parent="1" source="dr_d1" target="dr_m1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;148 дней | 85%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de9" edge="1" parent="1" source="dr_d1" target="dr_m9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;180 дней | 87%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de2" edge="1" parent="1" source="dr_d2" target="dr_m2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;130 дней | 80%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de12" edge="1" parent="1" source="dr_d2" target="dr_m12" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;120 дней | 78%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de3" edge="1" parent="1" source="dr_d3" target="dr_m3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;72 дня | 90%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de4" edge="1" parent="1" source="dr_d4" target="dr_m4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;110 дней | 75%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de5" edge="1" parent="1" source="dr_d5" target="dr_m5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;78 дней | 88%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de6" edge="1" parent="1" source="dr_d6" target="dr_m6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;42 дня | 92%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de7" edge="1" parent="1" source="dr_d7" target="dr_m7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;96 дней | 70%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de8" edge="1" parent="1" source="dr_d8" target="dr_m8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;56 дней | 95%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="de10" edge="1" parent="1" source="dr_d9" target="dr_m10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#82b366;" value="[DIRECTED]&#xa;54 дня | 82%">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-
-      </root>
-    </mxGraphModel>
-  </diagram>
-
-  <!-- ═══════════════════════════════════════════════════════
-       Страница 5: FOLLOWS — Actor → Actor
-  ══════════════════════════════════════════════════════════ -->
-  <diagram name="FOLLOWS" id="follows_page">
-    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Legend -->
-        <mxCell id="leg" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=12;startSize=25;" value="Легенда:" vertex="1">
-          <mxGeometry x="850" y="680" width="290" height="95" as="geometry"/>
-        </mxCell>
-        <mxCell id="leg1" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="🔵 Actor -[FOLLOWS]→ Actor" vertex="1"><mxGeometry y="25" width="290" height="22" as="geometry"/></mxCell>
-        <mxCell id="leg2" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Рёбра: SinceDate · Platform" vertex="1"><mxGeometry y="47" width="290" height="22" as="geometry"/></mxCell>
-        <mxCell id="leg3" parent="leg" style="text;fontSize=11;align=left;spacingLeft=8;" value="Платформы: Instagram / Twitter / TikTok" vertex="1"><mxGeometry y="69" width="290" height="22" as="geometry"/></mxCell>
-
-        <!-- Actors nodes -->
-        <mxCell id="f_a1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="ДиКаприо (1)" vertex="1"><mxGeometry x="100" y="50" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a1s" parent="f_a1" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.2, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Стрип (2)" vertex="1"><mxGeometry x="450" y="50" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a2s" parent="f_a2" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.5, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Хэнкс (3)" vertex="1"><mxGeometry x="750" y="50" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a3s" parent="f_a3" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.3, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Бланшетт (4)" vertex="1"><mxGeometry x="100" y="200" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a4s" parent="f_a4" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.1, Австралия" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Питт (5)" vertex="1"><mxGeometry x="450" y="200" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a5s" parent="f_a5" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.8, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Портман (6)" vertex="1"><mxGeometry x="750" y="200" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a6s" parent="f_a6" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.7, Израиль" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Феникс (7)" vertex="1"><mxGeometry x="100" y="380" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a7s" parent="f_a7" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.0, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Йоханссон (8)" vertex="1"><mxGeometry x="450" y="380" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a8s" parent="f_a8" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.5, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Бейл (9)" vertex="1"><mxGeometry x="750" y="380" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a9s" parent="f_a9" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.9, Великобритания" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Стоун (10)" vertex="1"><mxGeometry x="100" y="540" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a10s" parent="f_a10" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=8.6, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <mxCell id="f_a11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Вашингтон (11)" vertex="1"><mxGeometry x="450" y="540" width="160" height="50" as="geometry"/></mxCell>
-        <mxCell id="f_a11s" parent="f_a11" style="text;fontSize=11;align=left;spacingLeft=6;" value="R=9.1, США" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
-
-        <!-- Edges FOLLOWS -->
-        <!-- 1 → 5 Instagram 2015 -->
-        <mxCell id="fe1" edge="1" parent="1" source="f_a1" target="f_a5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2015-03-12 | Instagram">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 1 → 8 TikTok 2023 -->
-        <mxCell id="fe2" edge="1" parent="1" source="f_a1" target="f_a8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2023-02-28 | TikTok">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 5 → 2 Twitter 2016 -->
-        <mxCell id="fe3" edge="1" parent="1" source="f_a5" target="f_a2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2016-07-04 | Twitter">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 2 → 3 Instagram 2017 -->
-        <mxCell id="fe4" edge="1" parent="1" source="f_a2" target="f_a3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2017-01-20 | Instagram">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 3 → 7 Twitter 2019 -->
-        <mxCell id="fe5" edge="1" parent="1" source="f_a3" target="f_a7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2019-10-05 | Twitter">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 7 → 9 Instagram 2020 -->
-        <mxCell id="fe6" edge="1" parent="1" source="f_a7" target="f_a9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2020-02-14 | Instagram">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 9 → 1 TikTok 2018 -->
-        <mxCell id="fe7" edge="1" parent="1" source="f_a9" target="f_a1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2018-06-30 | TikTok">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 8 → 10 Instagram 2021 -->
-        <mxCell id="fe8" edge="1" parent="1" source="f_a8" target="f_a10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2021-03-01 | Instagram">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 10 → 6 Twitter 2020 -->
-        <mxCell id="fe9" edge="1" parent="1" source="f_a10" target="f_a6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2020-11-11 | Twitter">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 6 → 8 Instagram 2019 -->
-        <mxCell id="fe10" edge="1" parent="1" source="f_a6" target="f_a8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2019-05-20 | Instagram">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 11 → 1 Twitter 2022 -->
-        <mxCell id="fe11" edge="1" parent="1" source="f_a11" target="f_a1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2022-01-01 | Twitter">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <!-- 4 → 2 Instagram 2017 -->
-        <mxCell id="fe12" edge="1" parent="1" source="f_a4" target="f_a2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;strokeColor=#6c8ebf;" value="[FOLLOWS]&#xa;2017-09-09 | Instagram">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-
-      </root>
-    </mxGraphModel>
-  </diagram>
-
 </mxfile>
