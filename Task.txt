@@ -1,0 +1,31 @@
+ВАРИАНТ 1: «КИНОИНДУСТРИЯ И РЕКОМЕНДАЦИИ»
+==========================================
+
+ТАБЛИЦЫ УЗЛОВ (NODE TABLES):
+  1. Actors    — Актёры     (ActorID, FullName, BirthDate, Rating, Nationality)
+  2. Movies    — Фильмы     (MovieID, Title, ReleaseYear, Budget, Genre)
+  3. Directors — Режиссёры  (DirectorID, FullName, Country, AwardsCount)
+
+ТАБЛИЦЫ РЁБЕР (EDGE TABLES):
+  1. ACTED_IN  (Actors  -> Movies)    : RoleName, Salary
+  2. DIRECTED  (Directors -> Movies)  : ShootingDays, BudgetShare
+  3. FOLLOWS   (Actors  -> Actors)    : SinceDate, Platform
+
+ЗАПРОСЫ MATCH:
+  1. Фильмы актёров, на которых подписан ДиКаприо
+     Actor -[FOLLOWS]-> Actor -[ACTED_IN]-> Movie
+  2. Актёры, работавшие с режиссёром Ноланом
+     Director -[DIRECTED]-> Movie <-[ACTED_IN]- Actor
+  3. Соактёры Брэда Питта
+     Actor -[ACTED_IN]-> Movie <-[ACTED_IN]- Actor
+  4. Трёхуровневая цепочка подписок до Тома Хэнкса
+     Actor -[FOLLOWS]-> Actor -[FOLLOWS]-> Actor
+  5. Режиссёры через подписки ДиКаприо (цепочка 4 узлов)
+     Actor -[FOLLOWS]-> Actor -[ACTED_IN]-> Movie <-[DIRECTED]- Director
+  6. (бонус) Подписчики звёзд режиссёров с >5 наградами
+     Director -[DIRECTED]-> Movie <-[ACTED_IN]- Actor <-[FOLLOWS]- Actor
+
+ЗАПРОСЫ SHORTEST_PATH:
+  1. Кратчайший путь (шаблон "+")  от Бейла до Стрип через FOLLOWS
+  2. Кратчайший путь (шаблон "{1,4}") до Тома Хэнкса от любого актёра
+  3. (бонус) Кратчайший путь ({1,5}) до Хоакина Феникса с платформами

@@ -1,0 +1,60 @@
+СОБСТВЕННАЯ ЗАДАЧА НА ГРАФОВУЮ БАЗУ ДАННЫХ
+==========================================
+Тема: «МУЗЫКАЛЬНАЯ ИНДУСТРИЯ — КОЛЛАБОРАЦИИ И ВЛИЯНИЯ»
+
+ОПИСАНИЕ:
+  Смоделировать граф музыкальной индустрии:
+  исполнители, альбомы и студии звукозаписи.
+  Задача позволяет исследовать творческие связи,
+  влияния между артистами и историю коллабораций.
+
+ТАБЛИЦЫ УЗЛОВ:
+  1. Artists  — Исполнители (ArtistID, StageName, Country, Genre, Followers)
+  2. Albums   — Альбомы     (AlbumID, Title, ReleaseYear, SalesMillions, Style)
+  3. Labels   — Студии      (LabelID, Name, City, FoundedYear)
+
+ТАБЛИЦЫ РЁБЕР:
+  1. RELEASED  (Artists -> Albums)  : ProducerName, RecordingDays
+  2. SIGNED_TO (Artists -> Labels)  : ContractDate, RoyaltyPercent
+  3. INFLUENCED (Artists -> Artists): Year, Source (альбом/концерт/личное знакомство)
+
+CONNECTION CONSTRAINTS:
+  - RELEASED:  ONLY Artists TO Albums
+  - SIGNED_TO: ONLY Artists TO Labels
+  - INFLUENCED: ONLY Artists TO Artists
+
+ПРИМЕРЫ ЗАПРОСОВ MATCH:
+  1. Найти все альбомы, выпущенные артистами,
+     которых вдохновил Дэвид Боуи:
+     Artist(Bowie) -[INFLUENCED]-> Artist -[RELEASED]-> Album
+
+  2. Артисты одной студии, выпустившие альбом
+     после 2010 года:
+     Label <-[SIGNED_TO]- Artist -[RELEASED]-> Album (ReleaseYear > 2010)
+
+  3. Цепочка влияний длиной 3:
+     кого вдохновил артист X, кого в свою очередь
+     вдохновил артист Y, и так далее:
+     Artist -[INFLUENCED]-> Artist -[INFLUENCED]-> Artist
+
+  4. Коллаборации: найти артистов одной студии,
+     которые взаимно влияли друг на друга:
+     Artist -[INFLUENCED]-> Artist <-[SIGNED_TO]- Label
+     (Artist -[SIGNED_TO]-> Label)
+
+ЗАПРОСЫ SHORTEST_PATH:
+  1. Кратчайшая цепочка влияний ("+") от любого
+     современного исполнителя до Элвиса Пресли.
+  2. Кратчайший путь "{1,6}" влияний между двумя
+     выбранными артистами с выводом всей цепочки
+     и годов влияний (STRING_AGG по полю Year).
+
+ИДЕЯ ВИЗУАЛИЗАЦИИ В POWER BI:
+  Узлы раскрашивать по Genre, размер — Followers.
+  Рёбра INFLUENCED — пунктир, RELEASED — сплошная,
+  SIGNED_TO — жирная.
+
+ЦЕННОСТЬ ЗАДАЧИ:
+  Граф позволяет: рекомендовать похожих артистов,
+  строить «деревья влияний», находить «мосты»
+  между жанрами, анализировать монополизацию студий.
